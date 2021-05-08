@@ -239,10 +239,9 @@ body {
   }
 
 @media (max-width: 768px) {
+  .logo__text {
+    display: none;
+  }
   .menu {
     display: none;
   }
-  .logo {
-    display: none;
-  }
-}
