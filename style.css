@@ -239,9 +239,31 @@ body {
   }
 
 @media (max-width: 768px) {
+  .wrapper {
+    margin: 9px 2px 2% 4%;
+  }
+  .header {
+    margin-bottom: 15px;
+  }
+  .logo__circle {
+    margin: 0 11%;
+  }
+  .logo__circle_color_blue {
+    top: 58%;
+  }
   .logo__text {
     display: none;
   }
   .menu {
     display: none;
+  }
+  .main {
+    flex-direction: column-reverse;
+    margin-top: 15px;
+  }
+  .main__img {
+    width: 1273px;
+    height: 999px;
+    background-size: 22%;
+    margin: 1px 40px 37px 33px;
   }
